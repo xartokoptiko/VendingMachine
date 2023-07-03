@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="509.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.karachristos.vending.vendingmachine.VendingUserController">
+    <children>
+        <Pane fx:id="image_cont" prefHeight="407.0" prefWidth="392.0" AnchorPane.bottomAnchor="66.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="208.0" AnchorPane.topAnchor="0.0">
+
+        </Pane>
+        <Pane fx:id="control_pane" layoutX="392.0" layoutY="-1.0" prefHeight="407.0" prefWidth="208.0">
+            <children>
+                <ImageView fx:id="one" fitHeight="32.0" fitWidth="32.0" layoutX="56.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="two" fitHeight="32.0" fitWidth="32.0" layoutX="88.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="three" fitHeight="32.0" fitWidth="32.0" layoutX="120.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="four" fitHeight="32.0" fitWidth="32.0" layoutX="56.0" layoutY="182.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="five" fitHeight="32.0" fitWidth="32.0" layoutX="88.0" layoutY="182.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="six" fitHeight="32.0" fitWidth="32.0" layoutX="120.0" layoutY="182.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="seven" fitHeight="32.0" fitWidth="32.0" layoutX="56.0" layoutY="214.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="eight" fitHeight="32.0" fitWidth="32.0" layoutX="88.0" layoutY="214.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="nine" fitHeight="32.0" fitWidth="32.0" layoutX="120.0" layoutY="214.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="zero" fitHeight="32.0" fitWidth="32.0" layoutX="88.0" layoutY="246.0" pickOnBounds="true" preserveRatio="true" />
+                <TextField fx:id="number_text" layoutX="56.0" layoutY="127.0" prefHeight="23.0" prefWidth="96.0" />
+                <ImageView fx:id="ok" fitHeight="32.0" fitWidth="32.0" layoutX="56.0" layoutY="246.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="back" fitHeight="32.0" fitWidth="32.0" layoutX="120.0" layoutY="246.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="fifty_cent" fitHeight="32.0" fitWidth="32.0" layoutX="56.0" layoutY="278.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="five_cent" fitHeight="32.0" fitWidth="32.0" layoutX="88.0" layoutY="278.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="one_cent" fitHeight="32.0" fitWidth="32.0" layoutX="120.0" layoutY="278.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="one_euro" fitHeight="32.0" fitWidth="32.0" layoutX="56.0" layoutY="310.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="ten_cent" fitHeight="32.0" fitWidth="32.0" layoutX="88.0" layoutY="310.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="twenty_cent" fitHeight="32.0" fitWidth="32.0" layoutX="120.0" layoutY="310.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="two_cent" fitHeight="32.0" fitWidth="32.0" layoutX="56.0" layoutY="342.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fx:id="two_euro" fitHeight="32.0" fitWidth="32.0" layoutX="120.0" layoutY="342.0" pickOnBounds="true" preserveRatio="true" />
+            </children>
+        </Pane>
+        <Label fx:id="information_label" layoutX="106.0" layoutY="473.0" text="No Message yet" />
+        <Label layoutX="54.0" layoutY="473.0" text="Prompt" />
+        <Label layoutX="238.0" layoutY="446.0" text="Todays earning" />
+        <Label fx:id="todays_earnings" layoutX="343.0" layoutY="446.0" text="0" />
+        <Button fx:id="reset" layoutX="496.0" layoutY="442.0" mnemonicParsing="false" text="Reset" />
+        <Label layoutX="54.0" layoutY="446.0" text="Yesterdays earnings" />
+        <Label fx:id="yesterdays_earnings" layoutX="192.0" layoutY="446.0" text="0" />
+        <Button fx:id="save" layoutX="409.0" layoutY="442.0" mnemonicParsing="false" text="Save" />
+
+    </children>
+
+</AnchorPane>

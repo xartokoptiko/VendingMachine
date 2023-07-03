@@ -1,0 +1,171 @@
+[
+    {
+        "name":"aura water",
+        "brand":"Aura",
+        "summary":"Natural mineral water",
+        "dimensions" : {
+            "x" : 5.0,
+            "y" : 12.0,
+            "z" : 5.0
+        },
+        "volume":"250ml",
+        "url": "assets/products/aura-water.png"
+    },
+    {
+        "name":"champion Cruissant",
+        "brand":"Champion",
+        "summary":"With chocolate",
+        "dimensions" : {
+            "x" : 12.0,
+            "y" : 6.0,
+            "z" : 4.0
+        },
+        "volume":"150g",
+        "url": "assets/products/champion-cruisant.png"
+    },
+    {
+        "name":"Cola-cola",
+        "brand":"Coca-cola",
+        "summary":"The original",
+        "dimensions" : {
+            "x" : 4.0,
+            "y" : 12.0,
+            "z" : 5.0
+        },
+        "volume":"250ml",
+        "url": "assets/products/coca-cola.png"
+    },
+    {
+        "name":"Cola-cola-zero",
+        "brand":"Coca-cola",
+        "summary":"Zero sugar",
+        "dimensions" : {
+            "x" : 5.0,
+            "y" : 12.0,
+            "z" : 5.0
+        },
+        "volume":"250ml",
+        "url": "assets/products/coca-cola-zero.png"
+    },
+    {
+        "name":"Orange juice loux",
+        "brand":"Loux",
+        "summary":"With sparkle",
+        "dimensions" : {
+            "x" : 5.0,
+            "y" : 12.0,
+            "z" : 5.0
+        },
+        "volume":"250ml",
+        "url": "assets/products/loux-orange.png"
+    },
+    {
+        "name":"Orange juice loux no sparkling",
+        "brand":"Loux",
+        "summary":"Without sparkle",
+        "dimensions" : {
+            "x" : 5.0,
+            "y" : 12.0,
+            "z" : 5.0
+        },
+        "volume":"250ml",
+        "url": "assets/products/loux-blue.png"
+    },
+    {
+        "name":"Cherry juice loux",
+        "brand":"Loux",
+        "summary":"With Sparkle",
+        "dimensions" : {
+            "x" : 5.0,
+            "y" : 12.0,
+            "z" : 5.0
+        },
+        "volume":"250ml",
+        "url": "assets/products/loux-cherry.png"
+    },
+    {
+        "name":"Lemon juice loux without sparkle",
+        "brand":"Loux",
+        "summary":"With sparkle",
+        "dimensions" : {
+            "x" : 5.0,
+            "y" : 12.0,
+            "z" : 5.0
+        },
+        "volume":"250ml",
+        "url": "assets/products/loux-lemon.png"
+    },
+    {
+        "name":"water theoni",
+        "brand":"Theoni",
+        "summary":"Natural mineral water",
+        "dimensions" : {
+            "x" : 5.0,
+            "y" : 12.0,
+            "z" : 5.0
+        },
+        "volume":"250ml",
+        "url": "assets/products/theoni-water.png"
+    },
+    {
+        "name":"Chips lays BBQ",
+        "brand":"Lays",
+        "summary":"With BBQ",
+        "dimensions" : {
+            "x" : 10.0,
+            "y" : 12.0,
+            "z" : 5.0
+        },
+        "volume":"150g",
+        "url": "assets/products/lays-bbq.png"
+    },
+     {
+        "name":"Chips lays oregano",
+        "brand":"Lays",
+        "summary":"With oregano",
+        "dimensions" : {
+            "x" : 10.0,
+            "y" : 12.0,
+            "z" : 5.0
+        },
+        "volume":"150g",
+         "url": "assets/products/leys-oregano.png"
+     },
+     {
+        "name":"Chips lays",
+        "brand":"Lays",
+        "summary":"With salt",
+        "dimensions" : {
+            "x" : 10.0,
+            "y" : 12.0,
+            "z" : 5.0
+        },
+        "volume":"150g",
+         "url": "assets/products/leys-salt.png"
+     },
+    {
+        "name":"Sandwitch stergiou",
+        "brand":"Stergiou",
+        "summary":"With gouda ham toamto letuce and mayo",
+        "dimensions" : {
+            "x" : 12.0,
+            "y" : 5.0,
+            "z" : 5.0
+        },
+        "volume":"150g",
+        "url": "assets/products/stergiou-sandwitch.png"
+    },
+    {
+        "name":"Soda sweps",
+        "brand":"Sweps",
+        "summary":"With a hint of lime",
+        "dimensions" : {
+            "x" : 12.0,
+            "y" : 5.0,
+            "z" : 5.0
+        },
+        "volume":"250ml",
+        "url": "assets/products/sweps-soda.png"
+    }
+    
+]
